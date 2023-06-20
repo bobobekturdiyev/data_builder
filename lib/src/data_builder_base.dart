@@ -31,7 +31,7 @@ void main(List<String> arguments) {
       break;
     case 'service':
       final file =
-          File('lib/data/services/$folderName/${folderName}_${type}.dart');
+          File('lib/data/services/$folderName/${folderName}_$type.dart');
       file.writeAsStringSync(getServiceContent(name));
 
       if (arg3 == '--data-response') {
