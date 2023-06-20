@@ -1,7 +1,7 @@
 name: data_builder
 description: DTO and Service builder for TDD Clean Architecture
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/bobobekturdiyev/data_builder
 
 environment:
   sdk: ^3.0.5
